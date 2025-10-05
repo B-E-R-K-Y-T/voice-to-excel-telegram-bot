@@ -1,0 +1,12 @@
+gigachat~=0.1.42.post2
+ruff~=0.13.3
+SpeechRecognition~=3.14.3
+aiogram==3.10.0
+pydub==0.25.1
+soundfile~=0.13.1
+numpy~=2.3.3
+orjson~=3.11.3
+pandas~=2.3.3
+openpyxl~=3.1.5
+pydantic~=2.11.10
+pydantic-settings~=2.11.0

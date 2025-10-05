@@ -1,0 +1,33 @@
+# Установить автоматическое преобразование окончаний строк для всех текстовых файлов
+* text=auto
+
+# Явно указать файлы, которые должны быть с LF (Unix-style)
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+
+# Указать, что эти файлы являются бинарными (без преобразования)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.exe binary
+
+# Особые настройки для .idea (можно оставить как есть или тоже перевести на LF)
+.idea/** text=auto
+
+# Принудительно установить LF для конкретных файлов, которые вызывают предупреждения
+.idea/discord.xml text eol=lf
+.idea/inspectionProfiles/Project_Default.xml text eol=lf
+.idea/inspectionProfiles/profiles_settings.xml text eol=lf
